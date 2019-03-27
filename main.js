@@ -19,7 +19,7 @@ var canvas = document.querySelector("#scene"),
             x : x,
             y: y
         };
-        this.r =  Math.random()*5 + 2;
+        this.r =  Math.random()*3 + 3;
         this.vx = (Math.random()-0.5)*20;
         this.vy = (Math.random()-0.5)*20;
         this.accX = 0;
